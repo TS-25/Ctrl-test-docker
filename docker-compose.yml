@@ -49,7 +49,7 @@ cache:
     image: redis:alpine
     restart: always
   panel:
-    image: ghcr.io/ctrlpanel-gg/panel:latest
+    image: ghcr.io/ctrlpanel-gg/panel:1.0.2
     restart: always
     ports:
       - "80:80"
